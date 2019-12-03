@@ -1,0 +1,27 @@
+{
+  "maisons": [
+    {{#repeat 100}}
+
+    {
+        "code_postal": "34000",
+        "surface_habitable":{{int 8 150}},
+        "surface_totale_terrain":{{int 8 150}},
+        "surface_habitable_constructible":{{int 8 150}},
+        "nombre_niveaux":{{int 1 8}},
+        "nombre_pieces":10,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":6,
+        "annee_construction":1970,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_maison": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "qualite_toiture": "standard",
+        "prix_estimation":{{int 200000 250000}}
+    }
+    {{/repeat}}
+  ]
+}

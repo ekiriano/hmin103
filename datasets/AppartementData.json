@@ -1,0 +1,1906 @@
+{
+  "maisons": [
+
+    {
+        "code_postal": "34000",
+        "surface": 42,
+        "nombre_pieces":10,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":6,
+        "annee_construction":1970,
+        "etage": 3,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":222436
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 52,
+        "nombre_pieces":6,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":1,
+        "annee_construction":1964,
+        "etage": 9,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":210976
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 25,
+        "nombre_pieces":9,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":7,
+        "annee_construction":1999,
+        "etage": 4,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":241222
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 85,
+        "nombre_pieces":6,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":5,
+        "annee_construction":1995,
+        "etage": 2,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":242681
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 93,
+        "nombre_pieces":6,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":9,
+        "annee_construction":1970,
+        "etage": 4,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":222466
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 148,
+        "nombre_pieces":3,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":9,
+        "annee_construction":1999,
+        "etage": 8,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":229657
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 13,
+        "nombre_pieces":7,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":5,
+        "annee_construction":1964,
+        "etage": 7,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":228248
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 27,
+        "nombre_pieces":10,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":3,
+        "annee_construction":1990,
+        "etage": 9,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":229885
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 82,
+        "nombre_pieces":8,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":7,
+        "annee_construction":1986,
+        "etage": 2,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":246609
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 147,
+        "nombre_pieces":4,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":3,
+        "annee_construction":2000,
+        "etage": 6,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":233047
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 65,
+        "nombre_pieces":9,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":5,
+        "annee_construction":1992,
+        "etage": 9,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":222418
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 147,
+        "nombre_pieces":1,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":5,
+        "annee_construction":1989,
+        "etage": 4,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":237793
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 96,
+        "nombre_pieces":6,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":9,
+        "annee_construction":1970,
+        "etage": 4,
+        "nombre_etage_total": 7,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":226468
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 112,
+        "nombre_pieces":4,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":4,
+        "annee_construction":1979,
+        "etage": 8,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":241825
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 93,
+        "nombre_pieces":7,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":6,
+        "annee_construction":1987,
+        "etage": 4,
+        "nombre_etage_total": 8,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":210766
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 105,
+        "nombre_pieces":10,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":2,
+        "annee_construction":1970,
+        "etage": 8,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":245081
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 67,
+        "nombre_pieces":6,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":3,
+        "annee_construction":2008,
+        "etage": 9,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":215915
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 125,
+        "nombre_pieces":8,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":2,
+        "annee_construction":2018,
+        "etage": 2,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":227678
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 148,
+        "nombre_pieces":9,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":8,
+        "annee_construction":1973,
+        "etage": 10,
+        "nombre_etage_total": 7,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":239385
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 117,
+        "nombre_pieces":2,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":7,
+        "annee_construction":2011,
+        "etage": 3,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":216986
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 112,
+        "nombre_pieces":9,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":1,
+        "annee_construction":2010,
+        "etage": 7,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":244604
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 118,
+        "nombre_pieces":4,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":3,
+        "annee_construction":2001,
+        "etage": 7,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":213064
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 37,
+        "nombre_pieces":10,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":10,
+        "annee_construction":2000,
+        "etage": 6,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":224010
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 59,
+        "nombre_pieces":1,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":8,
+        "annee_construction":1979,
+        "etage": 3,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":241915
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 99,
+        "nombre_pieces":5,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":9,
+        "annee_construction":2005,
+        "etage": 7,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":200888
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 75,
+        "nombre_pieces":5,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":1,
+        "annee_construction":1977,
+        "etage": 4,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":245782
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 74,
+        "nombre_pieces":4,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":4,
+        "annee_construction":2016,
+        "etage": 7,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":226117
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 72,
+        "nombre_pieces":6,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":2,
+        "annee_construction":2019,
+        "etage": 2,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":205805
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 19,
+        "nombre_pieces":1,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":1,
+        "annee_construction":1994,
+        "etage": 8,
+        "nombre_etage_total": 8,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":248576
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 25,
+        "nombre_pieces":3,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":9,
+        "annee_construction":1985,
+        "etage": 8,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":242329
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 26,
+        "nombre_pieces":6,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":7,
+        "annee_construction":1997,
+        "etage": 5,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":201073
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 19,
+        "nombre_pieces":1,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":1,
+        "annee_construction":1997,
+        "etage": 8,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":219084
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 95,
+        "nombre_pieces":3,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":6,
+        "annee_construction":1990,
+        "etage": 1,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":201855
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 27,
+        "nombre_pieces":10,
+        "nombre_salle_bain":1,
+        "nombre_etage_total":6,
+        "annee_construction":1981,
+        "etage": 2,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":217936
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 54,
+        "nombre_pieces":10,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":8,
+        "annee_construction":2000,
+        "etage": 5,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":204791
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 133,
+        "nombre_pieces":10,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":8,
+        "annee_construction":1980,
+        "etage": 3,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":217206
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 10,
+        "nombre_pieces":7,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":9,
+        "annee_construction":2000,
+        "etage": 7,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":225107
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 43,
+        "nombre_pieces":2,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":7,
+        "annee_construction":1983,
+        "etage": 7,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":219376
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 129,
+        "nombre_pieces":2,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":6,
+        "annee_construction":2010,
+        "etage": 7,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":245398
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 18,
+        "nombre_pieces":8,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":2,
+        "annee_construction":1986,
+        "etage": 8,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":242731
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 144,
+        "nombre_pieces":10,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":3,
+        "annee_construction":1963,
+        "etage": 10,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":229049
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 96,
+        "nombre_pieces":1,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":4,
+        "annee_construction":1966,
+        "etage": 9,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":218796
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 89,
+        "nombre_pieces":7,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":4,
+        "annee_construction":1982,
+        "etage": 5,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":209092
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 87,
+        "nombre_pieces":7,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":8,
+        "annee_construction":1998,
+        "etage": 5,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":235282
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 99,
+        "nombre_pieces":1,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":1,
+        "annee_construction":2013,
+        "etage": 7,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":223827
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 23,
+        "nombre_pieces":4,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":2,
+        "annee_construction":1988,
+        "etage": 1,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":228604
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 105,
+        "nombre_pieces":3,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":8,
+        "annee_construction":1988,
+        "etage": 7,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":219490
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 41,
+        "nombre_pieces":8,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":2,
+        "annee_construction":2017,
+        "etage": 9,
+        "nombre_etage_total": 7,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":218666
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 138,
+        "nombre_pieces":8,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":6,
+        "annee_construction":2013,
+        "etage": 3,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":235858
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 83,
+        "nombre_pieces":3,
+        "nombre_salle_bain":1,
+        "nombre_etage_total":8,
+        "annee_construction":2003,
+        "etage": 9,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":220048
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 33,
+        "nombre_pieces":9,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":3,
+        "annee_construction":2018,
+        "etage": 8,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":211714
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 21,
+        "nombre_pieces":10,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":9,
+        "annee_construction":2003,
+        "etage": 3,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":208740
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 63,
+        "nombre_pieces":4,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":9,
+        "annee_construction":2019,
+        "etage": 6,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":244116
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 21,
+        "nombre_pieces":2,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":9,
+        "annee_construction":1981,
+        "etage": 9,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":234213
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 21,
+        "nombre_pieces":7,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":9,
+        "annee_construction":2010,
+        "etage": 6,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":201646
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 124,
+        "nombre_pieces":7,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":6,
+        "annee_construction":2002,
+        "etage": 8,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":221095
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 96,
+        "nombre_pieces":8,
+        "nombre_salle_bain":1,
+        "nombre_etage_total":9,
+        "annee_construction":2007,
+        "etage": 1,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":222932
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 126,
+        "nombre_pieces":2,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":6,
+        "annee_construction":2011,
+        "etage": 7,
+        "nombre_etage_total": 7,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":232345
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 47,
+        "nombre_pieces":1,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":6,
+        "annee_construction":1994,
+        "etage": 4,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":237121
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 16,
+        "nombre_pieces":4,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":5,
+        "annee_construction":2017,
+        "etage": 5,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":246806
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 40,
+        "nombre_pieces":2,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":2,
+        "annee_construction":1974,
+        "etage": 5,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":239282
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 125,
+        "nombre_pieces":9,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":5,
+        "annee_construction":2004,
+        "etage": 8,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":217478
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 148,
+        "nombre_pieces":3,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":10,
+        "annee_construction":1986,
+        "etage": 3,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":230240
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 49,
+        "nombre_pieces":4,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":8,
+        "annee_construction":2016,
+        "etage": 6,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":249470
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 150,
+        "nombre_pieces":2,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":4,
+        "annee_construction":1961,
+        "etage": 6,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":201276
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 119,
+        "nombre_pieces":2,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":9,
+        "annee_construction":2012,
+        "etage": 1,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":214436
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 141,
+        "nombre_pieces":9,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":5,
+        "annee_construction":2017,
+        "etage": 4,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":213902
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 150,
+        "nombre_pieces":8,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":4,
+        "annee_construction":1996,
+        "etage": 5,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":222630
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 76,
+        "nombre_pieces":1,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":7,
+        "annee_construction":1999,
+        "etage": 2,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":214308
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 22,
+        "nombre_pieces":6,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":7,
+        "annee_construction":1973,
+        "etage": 6,
+        "nombre_etage_total": 8,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":221965
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 68,
+        "nombre_pieces":4,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":5,
+        "annee_construction":2006,
+        "etage": 6,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":245074
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 119,
+        "nombre_pieces":7,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":5,
+        "annee_construction":1998,
+        "etage": 10,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":203392
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 16,
+        "nombre_pieces":3,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":4,
+        "annee_construction":1978,
+        "etage": 10,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":240981
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 110,
+        "nombre_pieces":10,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":10,
+        "annee_construction":2009,
+        "etage": 5,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":220476
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 31,
+        "nombre_pieces":6,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":6,
+        "annee_construction":1980,
+        "etage": 9,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":223351
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 127,
+        "nombre_pieces":9,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":9,
+        "annee_construction":1967,
+        "etage": 8,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":213567
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 86,
+        "nombre_pieces":5,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":6,
+        "annee_construction":1969,
+        "etage": 9,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":204484
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 66,
+        "nombre_pieces":3,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":10,
+        "annee_construction":1972,
+        "etage": 4,
+        "nombre_etage_total": 9,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":249163
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 139,
+        "nombre_pieces":3,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":8,
+        "annee_construction":1980,
+        "etage": 4,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":239576
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 8,
+        "nombre_pieces":5,
+        "nombre_salle_bain":9,
+        "nombre_etage_total":8,
+        "annee_construction":1984,
+        "etage": 5,
+        "nombre_etage_total": 7,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":249916
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 87,
+        "nombre_pieces":3,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":2,
+        "annee_construction":1993,
+        "etage": 3,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":220752
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 142,
+        "nombre_pieces":10,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":8,
+        "annee_construction":2004,
+        "etage": 8,
+        "nombre_etage_total": 8,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":227400
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 86,
+        "nombre_pieces":6,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":3,
+        "annee_construction":2000,
+        "etage": 6,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":239897
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 26,
+        "nombre_pieces":3,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":8,
+        "annee_construction":1978,
+        "etage": 7,
+        "nombre_etage_total": 8,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":216576
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 17,
+        "nombre_pieces":5,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":1,
+        "annee_construction":1974,
+        "etage": 9,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":236340
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 113,
+        "nombre_pieces":5,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":10,
+        "annee_construction":2003,
+        "etage": 2,
+        "nombre_etage_total": 8,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":242799
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 112,
+        "nombre_pieces":3,
+        "nombre_salle_bain":6,
+        "nombre_etage_total":3,
+        "annee_construction":1992,
+        "etage": 3,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":241929
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 83,
+        "nombre_pieces":10,
+        "nombre_salle_bain":7,
+        "nombre_etage_total":7,
+        "annee_construction":1965,
+        "etage": 1,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":248253
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 137,
+        "nombre_pieces":1,
+        "nombre_salle_bain":10,
+        "nombre_etage_total":1,
+        "annee_construction":1985,
+        "etage": 2,
+        "nombre_etage_total": 3,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":216016
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 11,
+        "nombre_pieces":9,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":6,
+        "annee_construction":2003,
+        "etage": 4,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":209273
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 47,
+        "nombre_pieces":6,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":2,
+        "annee_construction":1963,
+        "etage": 4,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":242561
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 122,
+        "nombre_pieces":2,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":1,
+        "annee_construction":1977,
+        "etage": 1,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":217004
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 107,
+        "nombre_pieces":5,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":7,
+        "annee_construction":1995,
+        "etage": 3,
+        "nombre_etage_total": 1,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":249444
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 145,
+        "nombre_pieces":4,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":5,
+        "annee_construction":1980,
+        "etage": 7,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":218027
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 15,
+        "nombre_pieces":6,
+        "nombre_salle_bain":2,
+        "nombre_etage_total":6,
+        "annee_construction":1984,
+        "etage": 9,
+        "nombre_etage_total": 10,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":244654
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 56,
+        "nombre_pieces":10,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":1,
+        "annee_construction":1971,
+        "etage": 8,
+        "nombre_etage_total": 5,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":247727
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 130,
+        "nombre_pieces":2,
+        "nombre_salle_bain":5,
+        "nombre_etage_total":7,
+        "annee_construction":2012,
+        "etage": 6,
+        "nombre_etage_total": 6,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":234533
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 135,
+        "nombre_pieces":2,
+        "nombre_salle_bain":4,
+        "nombre_etage_total":1,
+        "annee_construction":1962,
+        "etage": 7,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":214098
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 142,
+        "nombre_pieces":5,
+        "nombre_salle_bain":8,
+        "nombre_etage_total":2,
+        "annee_construction":1972,
+        "etage": 6,
+        "nombre_etage_total": 2,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":234875
+
+    },
+
+    {
+        "code_postal": "34000",
+        "surface": 96,
+        "nombre_pieces":3,
+        "nombre_salle_bain":3,
+        "nombre_etage_total":7,
+        "annee_construction":2009,
+        "etage": 3,
+        "nombre_etage_total": 4,
+        "diagnostic_performance_energetique": "A",
+        "qualite_appartement": "inferieure",
+        "etat_bien": "standard",
+        "luminosite": "sombre",
+        "calme": "bruyant",
+        "proximite_transports": "eloigne",
+        "prix_estimation":233455
+
+    }
+  ]
+}
+
+
