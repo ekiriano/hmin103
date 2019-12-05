@@ -51,7 +51,7 @@ router.post("/register", (req, res) => {
   });
 });
 
-/** 
+/**
   @route   POST api/users/login
   @desc    Login User / Returning JWT Token
   @access  Public
@@ -118,17 +118,17 @@ router.get(
       id: req.user.id,
       name: req.user.name,
       email: req.user.email,
-      user_type: req.user.user_type
+      admin: true
     });
   }
 );
 
 router.post(
-  "/upgradeto/super",
+  "/upgradeto/admin",
   passport.authenticate("jwt",{session:false}),
   (req,res) => {
-  //find the curent user and set it to super type  
-  User.findOneAndUpdate({"_id" :req.user.id},{$set:{user_type :"super"}})
+  //find the curent user and set it to super type
+  User.findOneAndUpdate({"_id" :req.user.id},{$set:{admin : true}})
   .then(data => res.json(data))
   .catch(err => res.status(404).json({error :"Couldn't upgrade the user to super"}));
   ;
