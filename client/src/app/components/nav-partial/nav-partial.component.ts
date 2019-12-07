@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {CategorieService} from '../../services/categorie.service';
+import {Category} from '../../models/Category';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-nav-partial',
@@ -6,10 +9,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-partial.component.css']
 })
 export class NavPartialComponent implements OnInit {
-
-  constructor() { }
+  categories: Observable<Category[]>;
+  constructor(private  categorieService: CategorieService) { }
 
   ngOnInit() {
+    this.categories =  this.categorieService.getCategories();
+    console.log(this.categories);
   }
 
 }
