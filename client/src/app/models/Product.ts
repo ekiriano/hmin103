@@ -1,4 +1,7 @@
 export class Product {
     id:number;
-    name:string;
+    title:string;
+    image:string;
+    exerpt:string;
+    description:string;
 }
