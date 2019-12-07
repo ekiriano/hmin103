@@ -24,7 +24,6 @@
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
-  "proxy": "http://localhost:5000",
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.19",
     "@angular/cli": "~8.3.19",
