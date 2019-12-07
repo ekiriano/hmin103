@@ -1,6 +1,17 @@
-.homeHeader {
-  height: 75vh;
-  background: url("../../../assets/header_img.jpg") center center;
-  background-size: contain;
+.homeHeader{
+    height: 75vh;
+    position:relative;
 }
 
+#homeHeaderVideo{
+    width: 100%; 
+}
+
+.content {
+    position: relative;
+    top: -40%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

@@ -24,10 +24,14 @@ const ProductSchema = new Schema({
     type: Number,
     required: true
   },
-  category_id: { type: Schema.Types.ObjectId, ref: 'Category'},
+  category: { type: Schema.Types.ObjectId, ref: 'Category'},
   quantity: {
     type: Number,
     default: null
+  },
+  model: {
+    type: String,
+    required: true
   },
   tailles: [{
     taille: {

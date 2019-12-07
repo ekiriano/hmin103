@@ -12,31 +12,15 @@ router.get('/', function (req, res, next) {
     });
 
 });
-/**
- * @route : /api/categories/:category
- *
- * */
+//display all products in a specific Category
 router.get('/:category', function (req, res, next) {
     Category.findOne({title: req.params.category}, function (err, category) {
         if (err) return console.log(err);
-        Product.find({category: category.name}, function(err, products) {
+        Product.find({category: category.id}, function(err, products) {
             if(err) return console.log(err);
             res.status(200).json(products);
         });
     });
 });
-
-router.post('/',function (req,res,next) {
-    const newCategory = new Category({
-        name: req.body.name,
-        description:req.body.description
-    });
-
-    newCategory.save()
-        .then(newCategory => res.json(newCategory))
-        .catch(err => console.log(err));
-
-});
-
 
 module.exports = router;
