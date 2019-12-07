@@ -29,6 +29,7 @@ router.get('/:category', function (req, res, next) {
 router.post('/',function (req,res,next) {
     const newCategory = new Category({
         name: req.body.name,
+        description:req.body.description
     });
 
     newCategory.save()

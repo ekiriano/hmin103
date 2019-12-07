@@ -14,7 +14,6 @@ export class NavPartialComponent implements OnInit {
 
   ngOnInit() {
     this.categories =  this.categorieService.getCategories();
-    console.log(this.categories);
   }
 
 }
