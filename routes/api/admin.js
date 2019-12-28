@@ -37,9 +37,10 @@ const Product = require("../../models/Product");
     category: req.body.category_id
   });
 
-  product.save()
-         .then(newProduct => res.json(newProduct))
-         .catch(err => console.log(err))
+  newProduct.save()
+      .then(newProduct => res.json(newProduct))
+      .catch(err => console.log(err));
+
 
 });
 
