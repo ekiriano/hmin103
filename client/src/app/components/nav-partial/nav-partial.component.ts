@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../services/auth.service';
-import { Subscription } from 'rxjs';
+import { Subscription, Observable } from 'rxjs';
+import {CategorieService} from '../../services/categorie.service';
+import {Category} from '../../models/Category';
 
 @Component({
   selector: 'app-nav-partial',
@@ -10,7 +12,8 @@ import { Subscription } from 'rxjs';
 export class NavPartialComponent implements OnInit {
   private authListenerSubs: Subscription;
   userIsAuthenticated = false;
-  constructor(private authService: AuthService) { }
+  categories: Observable<Category[]>;
+  constructor(private authService: AuthService, private  categorieService: CategorieService) { }
 
   ngOnInit() {
     this.userIsAuthenticated = this.authService.getIsAuth();
@@ -18,6 +21,7 @@ export class NavPartialComponent implements OnInit {
     .subscribe(isAuthenticated => {
       this.userIsAuthenticated = isAuthenticated;
     });
+    this.categories =  this.categorieService.getCategories();
   }
 
   onLogout()
