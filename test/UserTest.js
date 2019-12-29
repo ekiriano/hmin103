@@ -18,28 +18,28 @@ describe("User", () => {
     });
   });
 
-  
+
    * @test
    * /POST api/users/register
-   
+
 
   /////////////////////////////// THE CONST USER=.... IS JUST TEMPORARY FOR TESTING PURPOSES
-  
-  
+
+
 import { validateRegisterInput } from '/validation/register';
        const user = {
        name: "johnDoe",
        email: "johnDoe@test.com",
        password: "secret",
-       password2: "secret"
+       password_confirm: "secret"
      };
  describe{'validateRegisterInput',() => {
    it('should output true',() => {
      expect(validateRegisterInput(user).isValid).toBe('true');
    });
  });
-          
-          
+
+
  const User = {
    name: "johnDoe",
    email: "johnDoe@test.com",
@@ -53,7 +53,7 @@ import { validateRegisterInput } from '/validation/register';
     })
   })
 });
-          
+
  const User = {
    name: "johnDoe",
    email: "johnDoe@test.com",
@@ -67,8 +67,8 @@ import { validateRegisterInput } from '/validation/register';
 
     })
   })
-});    
-  
+});
+
    const User = {
    name: "johnDoe",
    email: "johnDoe@test.com",
@@ -110,13 +110,13 @@ import { validateRegisterInput } from '/validation/register';
     })
   })
 });
-          
-  
-          
-          
-  
 
-/* 
+
+
+
+
+
+/*
 Tests to write  :
   a_user_with_valid_form_data_can_register() ==> status 200 #DONE
   an_existing_user_can_login() ==> assert sucess trur  + status 200 #DONE

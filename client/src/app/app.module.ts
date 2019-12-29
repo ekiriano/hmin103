@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,9 +13,10 @@ import { CartViewComponent } from './components/cart-view/cart-view.component';
 //importation of ng-bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-//import Route module 
+//import Route module
 import { RouterModule, Routes } from '@angular/router';
-//import HTTP Client module 
+import { JwtModule } from '@auth0/angular-jwt';
+//import HTTP Client module
 import { HttpClientModule } from '@angular/common/http';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { NavPartialComponent } from './components/nav-partial/nav-partial.component';
@@ -40,6 +42,10 @@ const appRoutes: Routes = [
   { path: '**', component: PageNotFoundComponent }
 ];
 
+export function tokenGetter() {
+  return localStorage.getItem("access_token");
+}
+
 
 @NgModule({
   declarations: [
@@ -61,11 +67,20 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     NgbModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
-    )
+    ),
+    JwtModule.forRoot({
+    config: {
+    tokenGetter: tokenGetter,
+    whitelistedDomains: ["localhost:4200"],
+    blacklistedRoutes: ["localhost:4200/api/users/login"]
+  }
+})
   ],
   providers: [],
   bootstrap: [AppComponent]

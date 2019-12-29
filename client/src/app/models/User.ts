@@ -1,6 +1,6 @@
 export class User {
     id:number;
-    title:string;
+    email:string;
     image:string;
     exerpt:string;
     description:string;
