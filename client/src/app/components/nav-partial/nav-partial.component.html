@@ -23,8 +23,9 @@
 
       </ul>
       <div class="form-inline my-2 my-lg-0">
-        <a routerLink="/register" class="btn btn-success mr-2">Register</a>
-        <a routerLink="/login" class="btn btn-primary">Login</a>
+        <a *ngIf="!userIsAuthenticated" routerLink="/register" class="btn btn-success mr-2">Register</a>
+        <a *ngIf="!userIsAuthenticated" routerLink="/login" class="btn btn-primary">Login</a>
+        <button *ngIf="userIsAuthenticated" (click)="onLogout()">Logout</button>
       </div>
     </div>
   </nav>

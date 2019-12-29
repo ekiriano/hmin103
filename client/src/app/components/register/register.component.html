@@ -1,21 +1,31 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <form action="">
+            <form (submit)="onRegister(registerForm)" #registerForm="ngForm">
                 <div class="form-group">
                   <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <input type="email" name="email" ngModel class="form-control" #emailInput="ngModel" aria-describedby="emailHelp" required>
                   <small id="emailHelp" class="form-text text-muted">Please enter your email address</small>
                 </div>
+
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" ngModel class="form-control" #nameInput="ngModel" aria-describedby="name" required>
+                </div>
+
+
                 <div class="form-group">
                   <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password">
+                  <input type="password" name="password" ngModel class="form-control" #passwordInput="ngModel" id="password" required>
                 </div>
                 <div class="form-group">
                     <label for="password_confirm">Password Confirmation</label>
-                    <input type="password_confirm" class="form-control" id="password">
+                    <input type="password_confirm" name="password_confirm" ngModel class="form-control" #passwordConfirmInput="ngModel" required>
                   </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" [disabled]="isLoading" *ngIf="!isLoading">Submit</button>
+                <div class="spinner-border text-primary" role="status" *ngIf="isLoading">
+                  <span class="sr-only">Loading...</span>
+                </div>
             </form>
         </div>
     </div>
