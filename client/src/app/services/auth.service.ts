@@ -17,7 +17,7 @@ export class AuthService {
 
 
   login(email: string, password: string) {
-    this.http.post<{token: string, expiresIn: number}>("http://localhost:4200/api/users/login", { email: email, password: password })
+    this.http.post<{token: string, expiresIn: number, admin: boolean}>("http://localhost:4200/api/users/login", { email: email, password: password })
       .subscribe(response => {
         const token = response.token;
         this.token = token;
@@ -30,7 +30,8 @@ export class AuthService {
         const now = new Date();
         const expirationDate = new Date (now.getTime() + expiresInDuration * 1000);
         this.saveAuthData(token, expirationDate);
-        this.router.navigate(['/']);
+        if(response.admin) { this.router.navigate(['/admin']); }
+        else { this.router.navigate(['/']); }
         }
       })
   }

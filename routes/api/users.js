@@ -94,6 +94,7 @@ router.post("/login", (req, res) => {
             res.json({
               success: true,
               expiresIn: 3600,
+              admin: user.admin,
               token: "Bearer " + token
             });
           }
