@@ -24,6 +24,7 @@
     "jsonwebtoken": "^8.4.0",
     "mapbox-gl": "^0.53.1",
     "mongoose": "^5.4.9",
+    "ng2-search-filter": "^0.5.1",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "request": "^2.88.0",

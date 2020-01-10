@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { SearchComponent } from './components/search/search.component';
 
 // todo : deplacer les routes dans app-routing-module.ts
 const appRoutes: Routes = [
@@ -39,6 +41,7 @@ const appRoutes: Routes = [
   {path: 'admin/dashboard' , component: AdminDashboardComponent},
   {path: 'cart' , component: AdminDashboardComponent},
   {path: 'about' , component: AboutComponent},
+  {path: 'search' , component: SearchComponent},
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -61,7 +64,8 @@ export function tokenGetter() {
     AboutComponent,
     HomeComponent,
     PageNotFoundComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -70,6 +74,7 @@ export function tokenGetter() {
     FormsModule,
     ReactiveFormsModule,
     NgbModule,
+    Ng2SearchPipeModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
