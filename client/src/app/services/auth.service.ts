@@ -17,6 +17,7 @@ export class AuthService {
 
 
   login(email: string, password: string) {
+    // tslint:disable-next-line:max-line-length
     this.http.post<{token: string, expiresIn: number, admin: boolean}>("http://localhost:4200/api/users/login", { email: email, password: password })
       .subscribe(response => {
         const token = response.token;
@@ -30,7 +31,7 @@ export class AuthService {
         const now = new Date();
         const expirationDate = new Date (now.getTime() + expiresInDuration * 1000);
         this.saveAuthData(token, expirationDate);
-        if(response.admin) { this.router.navigate(['/admin']); }
+        if(response.admin) { this.router.navigate(['/admin/dashboard']); }
         else { this.router.navigate(['/']); }
         }
       })

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
 import {CategorieService} from '../../../../services/categorie.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-create-category',
@@ -9,7 +10,7 @@ import {CategorieService} from '../../../../services/categorie.service';
 })
 export class CreateCategoryComponent implements OnInit {
 
-  constructor(private  categorieService: CategorieService) { }
+  constructor(private  categorieService: CategorieService ) { }
 
   ngOnInit() {
   }
@@ -19,6 +20,7 @@ export class CreateCategoryComponent implements OnInit {
       return;
     }
     this.categorieService.createCategory(form);
+
   }
 
 }
