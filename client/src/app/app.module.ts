@@ -4,27 +4,32 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component';
-import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/auth/login/login.component';
+import { RegisterComponent } from './components/auth/register/register.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductViewComponent } from './components/product-view/product-view.component';
 import { CartViewComponent } from './components/cart-view/cart-view.component';
 
-//importation of ng-bootstrap
+// importation of ng-bootstrap
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-//import Route module
+// import Route module
 import { RouterModule, Routes } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
-//import HTTP Client module
+// import HTTP Client module
 import { HttpClientModule } from '@angular/common/http';
-import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
+import { AdminDashboardComponent } from './components/admin/admin-dashboard/admin-dashboard.component';
 import { NavPartialComponent } from './components/nav-partial/nav-partial.component';
 import { FooterPartialComponent } from './components/footer-partial/footer-partial.component';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { ProductAdminPanelComponent } from './components/admin/product/product-admin-panel/product-admin-panel.component';
+import { CategoryAdminPanelComponent } from './components/admin/category/category-admin-panel/category-admin-panel.component';
+import { CreateProductModalComponent } from './components/admin/product/create-product-modal/create-product-modal.component';
+import { DeleteCategoryModalComponent } from './components/admin/category/delete-category-modal/delete-category-modal.component';
+import { CreateCategoryComponent } from './components/admin/category/create-category/create-category.component';
 
 // todo : deplacer les routes dans app-routing-module.ts
 const appRoutes: Routes = [
@@ -37,13 +42,16 @@ const appRoutes: Routes = [
   {path: 'categories' , component: CategoriesComponent},
   {path: 'admin/login' , component: RegisterComponent},
   {path: 'admin/dashboard' , component: AdminDashboardComponent},
+  {path: 'admin/dashboard/categories' , component: CategoryAdminPanelComponent},
+  {path: 'admin/dashboard/products' , component: ProductAdminPanelComponent},
+  {path: 'admin/category/create' , component: CreateCategoryComponent},
   {path: 'cart' , component: AdminDashboardComponent},
   {path: 'about' , component: AboutComponent},
   { path: '**', component: PageNotFoundComponent }
 ];
 
 export function tokenGetter() {
-  return localStorage.getItem("access_token");
+  return localStorage.getItem('access_token');
 }
 
 
@@ -61,7 +69,12 @@ export function tokenGetter() {
     AboutComponent,
     HomeComponent,
     PageNotFoundComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    ProductAdminPanelComponent,
+    CategoryAdminPanelComponent,
+    CreateProductModalComponent,
+    DeleteCategoryModalComponent,
+    CreateCategoryComponent
   ],
   imports: [
     BrowserModule,
@@ -76,9 +89,9 @@ export function tokenGetter() {
     ),
     JwtModule.forRoot({
     config: {
-    tokenGetter: tokenGetter,
-    whitelistedDomains: ["localhost:4200"],
-    blacklistedRoutes: ["localhost:4200/api/users/login"]
+    tokenGetter,
+    whitelistedDomains: ['localhost:4200'],
+    blacklistedRoutes: ['localhost:4200/api/users/login']
   }
 })
   ],

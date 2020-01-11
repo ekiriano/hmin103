@@ -4,13 +4,13 @@
             <form (submit)="onRegister(registerForm)" #registerForm="ngForm">
                 <div class="form-group">
                   <label for="email">Email address</label>
-                  <input type="email" name="email" ngModel class="form-control" #emailInput="ngModel" aria-describedby="emailHelp" required>
+                  <input type="email" id="email" name="email" ngModel class="form-control" #emailInput="ngModel" aria-describedby="emailHelp" required>
                   <small id="emailHelp" class="form-text text-muted">Please enter your email address</small>
                 </div>
 
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="text" name="name" ngModel class="form-control" #nameInput="ngModel" aria-describedby="name" required>
+                  <input type="text"  id="name" name="name" ngModel class="form-control" #nameInput="ngModel" aria-describedby="name" required>
                 </div>
 
 
@@ -20,7 +20,7 @@
                 </div>
                 <div class="form-group">
                     <label for="password_confirm">Password Confirmation</label>
-                    <input type="password_confirm" name="password_confirm" ngModel class="form-control" #passwordConfirmInput="ngModel" required>
+                    <input type="password_confirm" id="password_confirm" name="password_confirm" ngModel class="form-control" #passwordConfirmInput="ngModel" required>
                   </div>
                 <button type="submit" class="btn btn-primary" [disabled]="isLoading" *ngIf="!isLoading">Submit</button>
                 <div class="spinner-border text-primary" role="status" *ngIf="isLoading">

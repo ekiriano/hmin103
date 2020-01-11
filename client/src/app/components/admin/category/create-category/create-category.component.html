@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Create a category</h1>
+      <form (submit)="onCreate(createCategory)" #createCategory="ngForm">
+        <div class="form-group">
+          <label for="categoryName">Category name</label>
+          <input type="text" class="form-control" ngModel #nameInput="ngModel" name="name" id="categoryName" placeholder="category name">
+        </div>
+
+        <div class="form-group">
+          <label for="description">Category Description</label>
+          <textarea class="form-control" ngModel #descriptionInput="ngModel" name="description" id="description" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success" >Create</button>
+      </form>
+
+    </div>
+  </div>
+</div>

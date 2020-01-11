@@ -13,11 +13,20 @@ export class CategorieService {
   getCategories(): Observable<Category[]> {
    return this.http.get<Category[]>('/api/categories');
   }
-  getCategory(name): Observable<Category>{
+  getCategory(name): Observable<Category> {
     return this.http.get<Category>('/api/categories/' + name);
   }
   createCategory(data: any) {
-    return this.http.post('/api/categories', data);
+    const todo = {
+      name: data.value.name ,
+      description: data.value.description
+    };
+    return this.http.post('/api/categories', todo);
+  }
+
+  deleteCategory(id: string) {
+    // @ts-ignore
+    return this.http.delete('/api/categories', id);
   }
 
 }

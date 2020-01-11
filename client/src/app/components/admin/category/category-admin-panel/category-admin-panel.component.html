@@ -1,0 +1,32 @@
+<div class="container-fluid ">
+  <div class="row">
+    <h2 class="mt-3 ml-3">Manage your  Categories </h2>
+
+<!--    <app-create-category-modal></app-create-category-modal>-->
+    <table class=" ml-3 mlr-3 table table-bordered">
+      <thead>
+      <tr>
+        <th scope="col"><button class="btn btn-success" routerLink="/admin/category/create">Add Category</button></th>
+        <th scope="col">Category Name</th>
+        <th scope="col">Description Excerpt</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let category of categories | async">
+        <th scope="row">{{category._id}}</th>
+        <td>{{category.name}}</td>
+        <td>{{category.exerpt}}</td>
+        <td>
+          <button class="btn btn-success"><i class="fas fa-edit"></i>Edit</button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="onDelete(category._id)">Delete</button>
+        </td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
