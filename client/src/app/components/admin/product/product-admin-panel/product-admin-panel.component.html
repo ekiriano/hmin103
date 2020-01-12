@@ -1,1 +1,31 @@
-<p>product-admin-panel works!</p>
+<div class="container-fluid ">
+  <div class="row">
+    <h2 class="mt-3 ml-3">Manage your Products</h2>
+
+    <table class=" ml-3 mlr-3 table table-bordered">
+      <thead>
+      <tr>
+        <th scope="col"><button class="btn btn-success" routerLink="/admin/product/create">Add Product</button></th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Description Excerpt</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let product of products | async">
+        <th scope="row">{{product._id}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.exerpt}}</td>
+        <td>
+          <button class="btn btn-success"><i class="fas fa-edit"></i>Edit</button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="onDelete(product._id)">Delete</button>
+        </td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>

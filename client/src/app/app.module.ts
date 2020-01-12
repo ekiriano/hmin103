@@ -27,9 +27,10 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { CategoriesComponent } from './components/categories/categories.component';
 import { ProductAdminPanelComponent } from './components/admin/product/product-admin-panel/product-admin-panel.component';
 import { CategoryAdminPanelComponent } from './components/admin/category/category-admin-panel/category-admin-panel.component';
-import { CreateProductModalComponent } from './components/admin/product/create-product-modal/create-product-modal.component';
 import { DeleteCategoryModalComponent } from './components/admin/category/delete-category-modal/delete-category-modal.component';
 import { CreateCategoryComponent } from './components/admin/category/create-category/create-category.component';
+import { CreateProductComponent } from './components/admin/product/create-product/create-product.component';
+import { EditCategoryComponent } from './components/admin/category/edit-category/edit-category.component';
 
 // todo : deplacer les routes dans app-routing-module.ts
 const appRoutes: Routes = [
@@ -45,6 +46,8 @@ const appRoutes: Routes = [
   {path: 'admin/dashboard/categories' , component: CategoryAdminPanelComponent},
   {path: 'admin/dashboard/products' , component: ProductAdminPanelComponent},
   {path: 'admin/category/create' , component: CreateCategoryComponent},
+  {path: 'admin/category/edit/:name' , component: EditCategoryComponent},
+  {path: 'admin/product/create' , component: CreateProductComponent},
   {path: 'cart' , component: AdminDashboardComponent},
   {path: 'about' , component: AboutComponent},
   { path: '**', component: PageNotFoundComponent }
@@ -72,9 +75,10 @@ export function tokenGetter() {
     CategoriesComponent,
     ProductAdminPanelComponent,
     CategoryAdminPanelComponent,
-    CreateProductModalComponent,
     DeleteCategoryModalComponent,
-    CreateCategoryComponent
+    CreateCategoryComponent,
+    CreateProductComponent,
+    EditCategoryComponent
   ],
   imports: [
     BrowserModule,

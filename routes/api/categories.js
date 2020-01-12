@@ -27,9 +27,13 @@ router.get('/:category', function (req, res, next) {
 });
 
 router.post('/',function (req,res,next) {
+    console.log(req.body);
+    const exerpt =  req.body.description.slice(0,250) + " ...";
     const newCategory = new Category({
         name: req.body.name,
-        description:req.body.description
+        description:req.body.description,
+        image:req.body.image === ""  ? 'holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail' : req.body.image,
+        exerpt: exerpt
     });
 
     newCategory.save()
@@ -39,8 +43,13 @@ router.post('/',function (req,res,next) {
 });
 
 router.delete('/',function (req,res,next){
-
-})
+    console.log(req.body);
+    Category.findById(req.body.id)
+        .then(category => {
+            category.remove().then( () => res.json({success : true}));
+        })
+        .catch(err => res.status(404).json({error : "this category was not found"}));
+});
 
 
 module.exports = router;

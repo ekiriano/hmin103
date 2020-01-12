@@ -19,10 +19,12 @@
         <td>{{category.name}}</td>
         <td>{{category.exerpt}}</td>
         <td>
-          <button class="btn btn-success"><i class="fas fa-edit"></i>Edit</button>
+          <button class="btn btn-success"  routerLink="/admin/category/edit/{{category.name}}">Edit</button>
         </td>
         <td>
-          <button class="btn btn-danger" (click)="onDelete(category._id)">Delete</button>
+          <form (submit)="onDelete(category._id)">
+            <button class="btn btn-danger" type="submit">Delete</button>
+          </form>
         </td>
       </tr>
 

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Category} from '../models/Category';
 import {Router} from '@angular/router';
@@ -20,7 +20,8 @@ export class CategorieService {
   createCategory(data: any) {
     const todo = {
       name: data.value.name ,
-      description: data.value.description
+      description: data.value.description,
+      image: data.value.image
     };
     console.log(todo);
     this.http.post('/api/categories', todo).subscribe(response => {
@@ -29,11 +30,21 @@ export class CategorieService {
     this.router.navigate(['/admin/dashboard/categories']);
   }
 
-  deleteCategory(id: string) {
+  // tslint:disable-next-line:variable-name
+  deleteCategory(c_id: string) {
     // @ts-ignore
-    this.http.delete('/api/categories', id).subscribe(response => {
+    const options = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+      body: {
+        id: c_id
+      },
+    };
+    this.http.delete('/api/categories', options).subscribe(response => {
       console.log(response);
     });
+    // todo : delete the category from object without refreshing
     this.router.navigate(['/admin/dashboard/categories']);
   }
 
