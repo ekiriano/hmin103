@@ -31,7 +31,6 @@ export class CategorieService {
   }
 
   updateCategory(data: any, name) {
-    console.log('onEdit');
     const category = {
       name: data.value.name,
       description: data.value.description,

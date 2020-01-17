@@ -3,6 +3,7 @@ import {NgForm} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {Category} from '../../../../models/Category';
 import {CategorieService} from '../../../../services/categorie.service';
+import {ProductService} from '../../../../services/product.service';
 
 @Component({
   selector: 'app-create-product',
@@ -11,14 +12,17 @@ import {CategorieService} from '../../../../services/categorie.service';
 })
 export class CreateProductComponent implements OnInit {
   categories: Observable<Category[]>;
-  constructor(private  categorieService: CategorieService) {
+  constructor(private  categorieService: CategorieService , private productService: ProductService) {
     this.categories = categorieService.getCategories();
   }
 
   ngOnInit() {
   }
 
-  onCreate(createCategory: NgForm) {
-
+  onCreate(form: NgForm) {
+    if (form.invalid) {
+      return;
+    }
+    this.productService.createProduct(form);
   }
 }

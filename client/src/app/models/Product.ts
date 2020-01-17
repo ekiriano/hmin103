@@ -5,5 +5,6 @@ export class Product {
     description:string;
     exerpt:string;
     price:number;
+    brand:string;
 
 }

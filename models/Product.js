@@ -8,6 +8,10 @@ const ProductSchema = new Schema({
     type: String,
     required: true
   },
+  image :{
+    type: String,
+    required:true
+  },
   description: {
     type: String,
     required: true
@@ -16,9 +20,8 @@ const ProductSchema = new Schema({
     type: String,
     required: true
   },
-  color: {
-    type: String,
-    required: true
+  exerpt:{
+    type: String
   },
   price: {
     type: Number,
@@ -28,17 +31,7 @@ const ProductSchema = new Schema({
   quantity: {
     type: Number,
     default: null
-  },
-  tailles: [{
-    taille: {
-      type: String
-    }
-  }],
-  images: [{
-    path: {
-      type: String
-    }
-  }],
+  }
 });
 
 module.exports = Product = mongoose.model("products", ProductSchema);

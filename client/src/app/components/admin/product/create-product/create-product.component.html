@@ -11,7 +11,7 @@
 
         <div class="form-group">
           <label for="productCategory">Product Category</label>
-          <select class="form-control" id="productCategory">
+          <select class="form-control" id="productCategory" ngModel #category_idInput="ngModel" name="category_id">
             <option *ngFor="let category of categories | async" value="{{category._id}}">{{category.name}}</option>
           </select>
         </div>
@@ -22,8 +22,13 @@
         </div>
 
         <div class="form-group">
+          <label for="productBrand">Product brand</label>
+          <input type="text" class="form-control" ngModel #brandInput="ngModel" name="brand" id="productBrand" placeholder="product brand">
+        </div>
+
+        <div class="form-group">
           <label for="categoryName">Product price</label>
-          <input type="number" class="form-control" ngModel #priceInput="ngModel" name="name" id="categoryName" placeholder="price">
+          <input type="number" class="form-control" ngModel #priceInput="ngModel" name="price" id="categoryName" placeholder="price">
         </div>
 
         <div class="form-group">
