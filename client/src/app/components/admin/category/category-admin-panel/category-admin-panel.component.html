@@ -19,7 +19,7 @@
         <td>{{category.name}}</td>
         <td>{{category.exerpt}}</td>
         <td>
-          <button class="btn btn-success"  routerLink="/admin/category/edit/{{category.name}}">Edit</button>
+          <button class="btn btn-success"  [routerLink]="['/admin/category/edit',category.name]">Edit</button>
         </td>
         <td>
           <form (submit)="onDelete(category._id)">

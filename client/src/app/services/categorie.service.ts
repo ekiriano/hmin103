@@ -14,20 +14,29 @@ export class CategorieService {
   getCategories(): Observable<Category[]> {
    return this.http.get<Category[]>('/api/categories');
   }
-  getCategory(name): Observable<Category> {
+
+  getCategory(name) {
     return this.http.get<Category>('/api/categories/' + name);
   }
   createCategory(data: any) {
-    const todo = {
+    const category = {
       name: data.value.name ,
       description: data.value.description,
       image: data.value.image
     };
-    console.log(todo);
-    this.http.post('/api/categories', todo).subscribe(response => {
+    this.http.post('/api/categories', category).subscribe(response => {
       console.log(response);
     });
     this.router.navigate(['/admin/dashboard/categories']);
+  }
+
+  updateCategory(data: any) {
+    const category = {
+      name: data.value.name,
+      description: data.value.description,
+      image: data.value.image
+    };
+    // this.http.patch()
   }
 
   // tslint:disable-next-line:variable-name

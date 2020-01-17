@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {NgForm} from "@angular/forms";
+import {NgForm} from '@angular/forms';
+import {Observable} from 'rxjs';
+import {Category} from '../../../../models/Category';
+import {CategorieService} from '../../../../services/categorie.service';
 
 @Component({
   selector: 'app-create-product',
@@ -7,8 +10,10 @@ import {NgForm} from "@angular/forms";
   styleUrls: ['./create-product.component.css']
 })
 export class CreateProductComponent implements OnInit {
-
-  constructor() { }
+  categories: Observable<Category[]>;
+  constructor(private  categorieService: CategorieService) {
+    this.categories = categorieService.getCategories();
+  }
 
   ngOnInit() {
   }

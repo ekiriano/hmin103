@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
-import { ProductListComponent } from './components/product-list/product-list.component';
-import { ProductViewComponent } from './components/product-view/product-view.component';
+import { ProductListComponent } from './components/product/product-list/product-list.component';
+import { ProductViewComponent } from './components/product/product-view/product-view.component';
 import { CartViewComponent } from './components/cart-view/cart-view.component';
 
 // importation of ng-bootstrap
@@ -31,6 +31,7 @@ import { DeleteCategoryModalComponent } from './components/admin/category/delete
 import { CreateCategoryComponent } from './components/admin/category/create-category/create-category.component';
 import { CreateProductComponent } from './components/admin/product/create-product/create-product.component';
 import { EditCategoryComponent } from './components/admin/category/edit-category/edit-category.component';
+import { SingleProductComponent } from './components/product/single-product/single-product.component';
 
 // todo : deplacer les routes dans app-routing-module.ts
 const appRoutes: Routes = [
@@ -78,7 +79,8 @@ export function tokenGetter() {
     DeleteCategoryModalComponent,
     CreateCategoryComponent,
     CreateProductComponent,
-    EditCategoryComponent
+    EditCategoryComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,
