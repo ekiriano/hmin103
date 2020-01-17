@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-finimport { HttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { AuthData } from '../models/AuthData';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
