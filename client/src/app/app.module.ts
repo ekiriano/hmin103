@@ -32,14 +32,15 @@ import { CreateCategoryComponent } from './components/admin/category/create-cate
 import { CreateProductComponent } from './components/admin/product/create-product/create-product.component';
 import { EditCategoryComponent } from './components/admin/category/edit-category/edit-category.component';
 import { SingleProductComponent } from './components/product/single-product/single-product.component';
+import { AllProductsComponent } from './components/product/all-products/all-products.component';
 
 // todo : deplacer les routes dans app-routing-module.ts
 const appRoutes: Routes = [
   {path: 'register' , component: RegisterComponent},
   {path: '' , component: HomeComponent},
   {path: 'login' , component: LoginComponent},
-  {path: 'products' , component: LoginComponent},
-  {path: 'products/:id' , component: LoginComponent},
+  {path: 'products' , component: AllProductsComponent},
+  {path: 'products/:name' , component: ProductListComponent},
   {path: 'category/:id' , component: LoginComponent},
   {path: 'categories' , component: CategoriesComponent},
   {path: 'admin/login' , component: RegisterComponent},
@@ -80,7 +81,8 @@ export function tokenGetter() {
     CreateCategoryComponent,
     CreateProductComponent,
     EditCategoryComponent,
-    SingleProductComponent
+    SingleProductComponent,
+    AllProductsComponent
   ],
   imports: [
     BrowserModule,
