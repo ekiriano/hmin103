@@ -17,7 +17,7 @@
 
         <div class="form-group">
           <label for="description">Category Description</label>
-          <textarea class="form-control" ngModel #descriptionInput="ngModel" name="description" id="description" rows="3" >{{ (category | async).description }}</textarea>
+          <textarea class="form-control" ngModel #descriptionInput="ngModel" name="description" id="description" rows="3"  value="{{ (category | async).description }}"></textarea>
         </div>
 
         <button type="submit" class="btn btn-success" >Update</button>

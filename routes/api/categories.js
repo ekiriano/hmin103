@@ -63,5 +63,24 @@ router.delete('/',function (req,res,next){
         .catch(err => res.status(404).json({error : "this category was not found"}));
 });
 
+router.put('/:category',async function (req,res,next){
+    try {
+        const exerpt = req.body.description.slice(0, 250) + " ...";
+        const category = await Category.findOne({name: req.params.category});
+
+        category.name = req.body.name,
+            category.description = req.body.description,
+            category.image = req.body.image,
+            category.exerpt = exerpt;
+
+        await category.save();
+        await res.json(category);
+
+    } catch(err) {
+        console.error(err);
+        res.status(500).send('Server Error');
+    }
+
+});
 
 module.exports = router;

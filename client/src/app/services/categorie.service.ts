@@ -30,13 +30,17 @@ export class CategorieService {
     this.router.navigate(['/admin/dashboard/categories']);
   }
 
-  updateCategory(data: any) {
+  updateCategory(data: any, name) {
+    console.log('onEdit');
     const category = {
       name: data.value.name,
       description: data.value.description,
       image: data.value.image
     };
-    // this.http.patch()
+    this.http.put('/api/categories/' + name, category).subscribe(response => {
+      console.log(response);
+    });
+    this.router.navigate(['/admin/dashboard/categories']);
   }
 
   // tslint:disable-next-line:variable-name
