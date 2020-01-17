@@ -7,8 +7,8 @@ const Product = require('../../models/Product');
  * @desc    display a specific product
  * @access  Public
  */
-router.get('/:id', function (req, res, next) {
-  Product.findById(req.params.id, function (err, product) {
+router.get('/:name', function (req, res, next) {
+  Product.findOne({name: req.params.name}, function (err, product) {
     if (err) return console.log(err);
     res.status(200).json(product);
   })

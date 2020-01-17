@@ -3,6 +3,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Category} from '../models/Category';
 import {Router} from '@angular/router';
+import {Product} from '../models/Product';
 
 @Injectable({
   providedIn: 'root'
@@ -60,4 +61,8 @@ export class CategorieService {
     this.router.navigate(['/admin/dashboard/categories']);
   }
 
+  getProductsOfCategory(name: any) {
+    const route = '/api/categories/' + name + '/products';
+    return this.http.get<Product[]>(route);
+  }
 }

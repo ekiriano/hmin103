@@ -17,9 +17,10 @@ router.get('/', function (req, res, next) {
  *
  * */
 router.get('/:category/products', function (req, res, next) {
-    Category.findOne({title: req.params.category}, function (err, category) {
+    Category.findOne({name: req.params.category}, function (err, category) {
         if (err) return console.log(err);
-        Product.find({category: category.name}, function(err, products) {
+        console.log(category);
+        Product.find({category_id: category.id}, function(err, products) {
             if(err) return console.log(err);
             res.status(200).json(products);
         });

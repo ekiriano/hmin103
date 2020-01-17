@@ -1,1 +1,23 @@
-<p>product-view works!</p>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-12 mt-5 mb-5">
+      <h1>{{(product| async).name}}</h1>
+      <hr>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="{{(product| async).image}}" alt="{{(product| async).name}}">
+    </div>
+    <div class="col-md-8">
+      <p>{{(product| async).description}}</p>
+      <h3>{{(product| async).price}} $</h3>
+      <form action="">
+
+        <input class="form-control" type="number"  min=0> <br>
+
+        <button class="btn btn-success " disabled>Add to Cart</button>
+      </form>
+    </div>
+  </div>
+</div>
