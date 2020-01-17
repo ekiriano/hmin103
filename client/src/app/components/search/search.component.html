@@ -11,12 +11,14 @@
       <tr>
         <th>Id</th>
         <th>Name</th>
+        <th>Price</th>
       </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let product of products | filter:searchText">
+      <tr *ngFor="let product of products | filter : searchText">
         <td>{{product.id}}</td>
         <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
       </tr>
       </tbody>
     </table>
