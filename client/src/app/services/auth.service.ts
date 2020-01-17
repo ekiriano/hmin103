@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { AuthData } from '../models/AuthData';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
+import { ToastrService } from 'ngx-toastr';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +14,7 @@ export class AuthService {
   private isAuthenticated = false;
   private authStatusListener = new Subject<boolean>();
 
-  constructor(private http: HttpClient, private router: Router) { }
+  constructor(private http: HttpClient, private router: Router, private toastr: ToastrService) { }
 
 
   login(email: string, password: string) {
@@ -32,6 +33,9 @@ export class AuthService {
         this.saveAuthData(token, expirationDate);
         if(response.admin) { this.router.navigate(['/admin']); }
         else { this.router.navigate(['/']); }
+        this.toastr.success(':)', 'Login Successfull!', {
+          positionClass: 'toast-bottom-right'
+        });
         }
       })
   }
@@ -40,7 +44,10 @@ export class AuthService {
     const authData: AuthData = {email: email, password: password, name: name, password_confirm: password_confirm};
     this.http.post("http://localhost:4200/api/users/register", authData)
       .subscribe(response => {
-        console.log(response);
+        this.router.navigate(['/']);
+        this.toastr.success(':)', 'Register Successfull', {
+          positionClass: 'toast-bottom-right'
+        });
       });
  }
 
@@ -68,6 +75,9 @@ export class AuthService {
    clearTimeout(this.tokenTimer);
    this.clearAuthData();
    this.router.navigate(['/']);
+   this.toastr.success(':)', 'Logout Successfull', {
+     positionClass: 'toast-bottom-right'
+   });
  }
 
  private saveAuthData(token: string, expirationDate: Date)
